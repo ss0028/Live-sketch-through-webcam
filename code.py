@@ -31,5 +31,6 @@ while True:
     #thus, the program terminates when user presses Enter key
     if cv2.waitKey(1)==13:
         break
+        
 cap.release()
 cv2.destroyAllWindows()
